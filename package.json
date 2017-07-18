@@ -1,0 +1,29 @@
+{
+  "name": "photos-exporting",
+  "version": "0.0.1",
+  "description": "Building a mini Facebook photos exporting app",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/er-rousy/Facebook-photos-exporting.git"
+  },
+  "keywords": [
+    "facebook",
+    "app",
+    "exporting",
+    "photos"
+  ],
+  "author": "fayssal errousy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/er-rousy/Facebook-photos-exporting/issues"
+  },
+  "homepage": "https://github.com/er-rousy/Facebook-photos-exporting#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "webpack": "^3.3.0"
+  }
+}
