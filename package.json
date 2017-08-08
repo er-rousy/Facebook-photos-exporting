@@ -4,9 +4,9 @@
   "description": "Building a mini Facebook photos exporting app",
   "main": "app/index.js",
   "scripts": {
-    "start-dev-back": "nodemon ./backend/app.js",
+    "start-back": "SET DEBUG=express:* & nodemon ./app/app.js",
     "build-front": " webpack --progress --colors --watch --config ./webpack.config.js",
-    "build": "npm-run-all -p -r build-front start-dev-back"
+    "build": "npm-run-all -p -r build-front start-back"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,21 @@
   },
   "homepage": "https://github.com/er-rousy/Facebook-photos-exporting#readme",
   "dependencies": {
+    "axios": "^0.16.2",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.17.2",
     "express": "^4.15.3",
+    "firebase": "^4.2.0",
+    "firebase-admin": "^5.1.0",
+    "hellojs": "^1.15.1",
+    "material-ui": "^0.18.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-flexbox-grid": "^1.1.3",
+    "react-infinite-scroller": "^1.0.14",
+    "react-router": "^2.0.0",
+    "react-tap-event-plugin": "^2.0.1",
+    "rollbar": "^2.1.0",
     "webpack": "^3.3.0"
   },
   "devDependencies": {
